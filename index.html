@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+    height: 25%
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5%;
+    text-align: center;
+}
+
+h1, h2 {
+  display: inline;
+  background: #fff;
+
+}
+
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   div.gallery {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   div.gallery {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   div.gallery {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 2560px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   div.gallery {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
+
+h1 {
+  font-size: 30px
+}
+h2 {
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<div>
+<center><h1>Welcome to Makiah's Online Gallery</h1><br>
+<h2>(these are some of my favorite photos)</h2><center>
+</div>
+<br>
+<hr>
+<br>
+<div class="gallery">
+  <a target="_blank" href="https://lh5.googleusercontent.com/EmNhsGLjmAGIdduxYSQVYGDFdg2WfSTMWKLJ1DTfDcHUIGktG2rb5NwtU2bWRYGefWcleuPzqgvfB8Zb08uDoss6hIEFjffPwQu1ONpCNZClUXey2gnaPXaMRgMdP391nRsOy0oC">
+    <img src="https://lh5.googleusercontent.com/EmNhsGLjmAGIdduxYSQVYGDFdg2WfSTMWKLJ1DTfDcHUIGktG2rb5NwtU2bWRYGefWcleuPzqgvfB8Zb08uDoss6hIEFjffPwQu1ONpCNZClUXey2gnaPXaMRgMdP391nRsOy0oC" alt="rebound" width="300" height="200"
+  <div class="desc">This is a picture of me getting a rebound</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh5.googleusercontent.com/DAfR1rZPq9dk_a3YH84NVICQYgsgRMR-zWXkjoDXMSrdzGZq6lVQsV4Io2EQgHpKqX0AubLB0AksSI6bN_AmjEBk_WUbF0fWlYX6WEaG-bs08f946rfW6GTlfhOQsy3BOb6VejmR">
+    <img src="https://lh5.googleusercontent.com/DAfR1rZPq9dk_a3YH84NVICQYgsgRMR-zWXkjoDXMSrdzGZq6lVQsV4Io2EQgHpKqX0AubLB0AksSI6bN_AmjEBk_WUbF0fWlYX6WEaG-bs08f946rfW6GTlfhOQsy3BOb6VejmR" alt="rebound" width="300" height="200">
+  </a>
+  <div class="desc">This is also a picture of me getting a rebound</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh6.googleusercontent.com/clHSWeZdRvgJeAcWq6h_i4rsN90CYoMpmYMWr-qQ-vnYtEAyY6-p3bLZDwgSNdVKQRP7XVyvCfKIjjme1jFFu-EORd6IRn60pAmqsxHZsRBzVwZqTx18VfTuMiB44YI4MSkJ1POM">
+    <img src="https://lh6.googleusercontent.com/clHSWeZdRvgJeAcWq6h_i4rsN90CYoMpmYMWr-qQ-vnYtEAyY6-p3bLZDwgSNdVKQRP7XVyvCfKIjjme1jFFu-EORd6IRn60pAmqsxHZsRBzVwZqTx18VfTuMiB44YI4MSkJ1POM" alt="Marie and I" width="300" height="200">
+  </a>
+  <div class="desc">This is marie</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh3.googleusercontent.com/ErjH0x9PRA6iBbyJskSlHjQsqhvE7SVpWnS0fludkF4TNuPqv5mrExFrCurJNuxYgXKcAeXthhf1zo18n5V4DecRCAgtLC6QiHxtUmPif1jFsNI7jY2xQoXAGiBZQPGWT1ZFuHmu">
+    <img src="https://lh3.googleusercontent.com/ErjH0x9PRA6iBbyJskSlHjQsqhvE7SVpWnS0fludkF4TNuPqv5mrExFrCurJNuxYgXKcAeXthhf1zo18n5V4DecRCAgtLC6QiHxtUmPif1jFsNI7jY2xQoXAGiBZQPGWT1ZFuHmu" alt="team" width="300" height"200"
+  <div class="desc">This is my team</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh4.googleusercontent.com/TG7YnO9wZLLidt-fc3pSd5Y7x3JcZj9PXulcrR0b-b5gdG3jcFFrjwpKKlwkzdgwOX_o34Wt4CarXsyOar1x_KMrT7Fi_7fANAJE4rLOC5v18d3lCNTj3drO8h01rFjMNc1I4pzk">
+    <img src="https://lh4.googleusercontent.com/TG7YnO9wZLLidt-fc3pSd5Y7x3JcZj9PXulcrR0b-b5gdG3jcFFrjwpKKlwkzdgwOX_o34Wt4CarXsyOar1x_KMrT7Fi_7fANAJE4rLOC5v18d3lCNTj3drO8h01rFjMNc1I4pzk" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">This is also my team</div>
+</div>
+
+<div class="gallery">
+  <a target="_https://lh3.googleusercontent.com/XySYNleQ_LtkImBBZrxkuegD2-fJuTFKqqOvSglSylc2dvV4SdiCHqOKIcJqYlF1qw71mu5_H4ofPvxuKHOUE6gifH3hvN7gg_UMJ0ZAncGx7d2BgyaOOdMqomv-CYG-dUqgOvQLblank" href="https://lh3.googleusercontent.com/XySYNleQ_LtkImBBZrxkuegD2-fJuTFKqqOvSglSylc2dvV4SdiCHqOKIcJqYlF1qw71mu5_H4ofPvxuKHOUE6gifH3hvN7gg_UMJ0ZAncGx7d2BgyaOOdMqomv-CYG-dUqgOvQL">
+    <img src="https://lh3.googleusercontent.com/XySYNleQ_LtkImBBZrxkuegD2-fJuTFKqqOvSglSylc2dvV4SdiCHqOKIcJqYlF1qw71mu5_H4ofPvxuKHOUE6gifH3hvN7gg_UMJ0ZAncGx7d2BgyaOOdMqomv-CYG-dUqgOvQL" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">this is another picture of my team</div>
+</div>
+
+</body>
+</html>
